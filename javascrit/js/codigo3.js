@@ -52,9 +52,17 @@
      // = ASIGNA no compara
      // != DISTINTO
      // === EXTRICTAMENTE IGUALES
+     // && .Y
+     // || .O
+     num1 = 12;
+     num2 = 24;
+     afirmacion1 = num1 > num2;
+     afirmacion2 = num1 != num2;
+     document.write(afirmacion1 && afirmacion2);
 
 
-//Oreadores---
+//Oparadores-----
+
 
 
 
